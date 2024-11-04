@@ -6,5 +6,12 @@ import (
 )
 
 func main() {
-	fmt.Println(utils.MagicSum(1))
+	n := 3
+	fmt.Println(utils.MagicSum(n))
+	fmt.Println(utils.MagicPow(n))
+	fmt.Println(utils.MagicOdd(n))
+	fmt.Println(utils.MagicGrade(n))
+	fmt.Println(utils.MagicName(n))
+	fmt.Println(utils.MagicTria(n))
+	fmt.Println(utils.MagicSum(n))
 }
