@@ -13,5 +13,6 @@ func main() {
 	fmt.Println(utils.MagicGrade(n))
 	fmt.Println(utils.MagicName(n))
 	fmt.Println(utils.MagicTria(n))
-	fmt.Println(utils.MagicSum(n))
+	utils.MagicChange(&n)
+	fmt.Println(n)
 }
